@@ -1,0 +1,9 @@
+torch==1.0.1
+tqdm==4.19.5
+scipy==1.0.0
+numpy==1.13.3
+pandas==0.21.1
+tensorflow_gpu
+fastText==0.8.3
+scikit_learn==0.21.2
+hdfs
