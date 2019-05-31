@@ -13,7 +13,12 @@ set -e
 N_THREADS=8
 
 lg=$1
+if [ $# -gt 1 ] ;
+then
+TOOLS_PATH=$2
+else
 TOOLS_PATH=$PWD/tools
+fi
 
 # moses
 MOSES=$TOOLS_PATH/mosesdecoder
