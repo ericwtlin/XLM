@@ -1,4 +1,4 @@
-Cython
+cython
 scipy
 fasttext
 torch==1.0.1
@@ -10,4 +10,5 @@ setuptools
 numpy
 apex
 pythainlp
-scikit_learn
+scikit_learn==0.20.3
+msgpack==0.5.6
